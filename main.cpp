@@ -40,7 +40,7 @@ void startSequence() {
   tft.println("Initializing screen");
 
   //Set time
-  tft.setCursor(0, 0);
+  tft.setCursor(0, 15);
   tft.println("Setting Time");
 
   tft.fillScreen(ILI9341_BLACK);
@@ -52,8 +52,8 @@ void startSequence() {
 
 void drawMainScreen() {
 
-  tft.drawRect(0, 0, tft.width(), 10, AMBER);
-  tft.setCursor(0, 0);
+  tft.drawRect(0, 0, tft.width(), 13, AMBER);
+  tft.setCursor(2, 3);
   tft.setTextColor(AMBER);
   tft.setTextSize(1);
 
